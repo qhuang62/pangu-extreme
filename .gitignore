@@ -1,0 +1,25 @@
+# Large model files
+model/*.onnx
+
+# Large input data files
+data/
+2012_Sandy/sandy_input_data/*.npy
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
+
+# Results that are too large (keep CSV and PNG)
+*.nc
+*.h5
+*_upper.npy
+*_surface.npy
